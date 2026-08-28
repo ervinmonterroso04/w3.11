@@ -21,7 +21,7 @@ section {
 .UpcomingParties {
   list-style: none;
   display: grid;
-  gap: 1ch;
+  gap: 2ch;
 }
 
 .UpcomingParties a {
@@ -31,8 +31,8 @@ section {
   display: block;
   width: 100%;
   border: 1px solid #eee;
-  border-radius: 0.25rem;
-  padding: 1ch;
+  border-radius: 0.3rem;
+  padding: 2ch;
 }
 
 .UpcomingParties a:hover {
@@ -41,9 +41,11 @@ section {
 
 .event {
   display: grid;
-  gap: 1ch;
+  gap: 5ch;
 }
-
+h3 {
+  padding: 1rem;
+}
 @media (width > 600px) {
   main {
     grid-template-columns: 1fr 1fr;
